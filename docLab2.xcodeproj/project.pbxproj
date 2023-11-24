@@ -18,6 +18,7 @@
 		F771F23E2B103AB000928D99 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F771F23D2B103AB000928D99 /* Poppins-SemiBold.ttf */; };
 		F771F2402B103AB900928D99 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F771F23F2B103AB900928D99 /* Poppins-Regular.ttf */; };
 		F771F2442B103B4E00928D99 /* sizeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771F2432B103B4E00928D99 /* sizeFonts.swift */; };
+		F771F2462B103C3F00928D99 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F771F2452B103C3F00928D99 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F771F23F2B103AB900928D99 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../../Downloads/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		F771F2412B103ACF00928D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F771F2432B103B4E00928D99 /* sizeFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sizeFonts.swift; sourceTree = "<group>"; };
+		F771F2452B103C3F00928D99 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				F771F2432B103B4E00928D99 /* sizeFonts.swift */,
+				F771F2452B103C3F00928D99 /* Localizable.strings */,
 			);
 			path = LocalTools;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				F771F23E2B103AB000928D99 /* Poppins-SemiBold.ttf in Resources */,
 				F771F23C2B103AA600928D99 /* Poppins-Bold.ttf in Resources */,
 				F771F23A2B103A9600928D99 /* Nunito-Bold.ttf in Resources */,
+				F771F2462B103C3F00928D99 /* Localizable.strings in Resources */,
 				F771F2352B10399800928D99 /* .gitignore in Resources */,
 				F771F2372B1039B500928D99 /* README.md in Resources */,
 				F771F2292B10382E00928D99 /* Assets.xcassets in Resources */,
