@@ -16,13 +16,18 @@ struct profileDoc: View {
                         Circle()
                             .fill(Color.white)
                             .frame(width: 48, height: 48)
-                        Image("doctor1")
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .scaleEffect(1.2)
-                            .offset(y:9)
-                            .clipped()
-                            .clipShape(Circle())
+                        ZStack {
+                            Rectangle()
+                                  .frame(width: 48, height: 48)
+                                  .foregroundColor(.clear)
+                                  .background(
+                                        Image("doctor1")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fill)
+                                        .frame(width: 58, height: 73)
+                                        .padding(.top, 20))
+                                        .mask(Circle())
+                        }
                     }
                     .frame(width: 48, height: 48)
                             
