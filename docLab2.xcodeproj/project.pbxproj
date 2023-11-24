@@ -25,6 +25,8 @@
 		F7B14E2A2B1041E0001F89DB /* nearDocUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E292B1041E0001F89DB /* nearDocUi.swift */; };
 		F7B14E2C2B104228001F89DB /* headerDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E2B2B104228001F89DB /* headerDoc.swift */; };
 		F7B14E2E2B104295001F89DB /* profileDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E2D2B104295001F89DB /* profileDoc.swift */; };
+		F7B14E302B104302001F89DB /* search.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E2F2B104302001F89DB /* search.swift */; };
+		F7B14E322B104332001F89DB /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E312B104332001F89DB /* menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		F7B14E292B1041E0001F89DB /* nearDocUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nearDocUi.swift; sourceTree = "<group>"; };
 		F7B14E2B2B104228001F89DB /* headerDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = headerDoc.swift; sourceTree = "<group>"; };
 		F7B14E2D2B104295001F89DB /* profileDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileDoc.swift; sourceTree = "<group>"; };
+		F7B14E2F2B104302001F89DB /* search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search.swift; sourceTree = "<group>"; };
+		F7B14E312B104332001F89DB /* menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,8 @@
 			children = (
 				F7B14E2B2B104228001F89DB /* headerDoc.swift */,
 				F7B14E2D2B104295001F89DB /* profileDoc.swift */,
+				F7B14E2F2B104302001F89DB /* search.swift */,
+				F7B14E312B104332001F89DB /* menu.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -235,8 +241,10 @@
 				F7B14E2A2B1041E0001F89DB /* nearDocUi.swift in Sources */,
 				F771F2442B103B4E00928D99 /* sizeFonts.swift in Sources */,
 				F771F2252B10382C00928D99 /* docLab2App.swift in Sources */,
+				F7B14E302B104302001F89DB /* search.swift in Sources */,
 				F7B14E252B103F43001F89DB /* home.swift in Sources */,
 				F7B14E212B103EA9001F89DB /* myTabBar.swift in Sources */,
+				F7B14E322B104332001F89DB /* menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
