@@ -19,6 +19,8 @@
 		F771F2402B103AB900928D99 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F771F23F2B103AB900928D99 /* Poppins-Regular.ttf */; };
 		F771F2442B103B4E00928D99 /* sizeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771F2432B103B4E00928D99 /* sizeFonts.swift */; };
 		F771F2462B103C3F00928D99 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F771F2452B103C3F00928D99 /* Localizable.strings */; };
+		F7B14E212B103EA9001F89DB /* myTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E202B103EA9001F89DB /* myTabBar.swift */; };
+		F7B14E252B103F43001F89DB /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E242B103F43001F89DB /* home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		F771F2412B103ACF00928D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F771F2432B103B4E00928D99 /* sizeFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sizeFonts.swift; sourceTree = "<group>"; };
 		F771F2452B103C3F00928D99 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		F7B14E202B103EA9001F89DB /* myTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTabBar.swift; sourceTree = "<group>"; };
+		F7B14E242B103F43001F89DB /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 		F771F2232B10382C00928D99 /* docLab2 */ = {
 			isa = PBXGroup;
 			children = (
+				F7B14E232B103F2F001F89DB /* home */,
+				F7B14E222B103EF9001F89DB /* UI */,
 				F771F2422B103B3200928D99 /* LocalTools */,
 				F771F2412B103ACF00928D99 /* Info.plist */,
 				F771F2382B103A7C00928D99 /* Fonts */,
@@ -77,6 +83,7 @@
 				F771F2262B10382C00928D99 /* ContentView.swift */,
 				F771F2282B10382E00928D99 /* Assets.xcassets */,
 				F771F22A2B10382E00928D99 /* Preview Content */,
+				F7B14E202B103EA9001F89DB /* myTabBar.swift */,
 			);
 			path = docLab2;
 			sourceTree = "<group>";
@@ -107,6 +114,21 @@
 				F771F2452B103C3F00928D99 /* Localizable.strings */,
 			);
 			path = LocalTools;
+			sourceTree = "<group>";
+		};
+		F7B14E222B103EF9001F89DB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F7B14E232B103F2F001F89DB /* home */ = {
+			isa = PBXGroup;
+			children = (
+				F7B14E242B103F43001F89DB /* home.swift */,
+			);
+			path = home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +211,8 @@
 				F771F2272B10382C00928D99 /* ContentView.swift in Sources */,
 				F771F2442B103B4E00928D99 /* sizeFonts.swift in Sources */,
 				F771F2252B10382C00928D99 /* docLab2App.swift in Sources */,
+				F7B14E252B103F43001F89DB /* home.swift in Sources */,
+				F7B14E212B103EA9001F89DB /* myTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
