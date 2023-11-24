@@ -13,6 +13,11 @@
 		F771F22C2B10382E00928D99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F771F22B2B10382E00928D99 /* Preview Assets.xcassets */; };
 		F771F2352B10399800928D99 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F771F2342B10399800928D99 /* .gitignore */; };
 		F771F2372B1039B500928D99 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F771F2362B1039B500928D99 /* README.md */; };
+		F771F23A2B103A9600928D99 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F771F2392B103A9600928D99 /* Nunito-Bold.ttf */; };
+		F771F23C2B103AA600928D99 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F771F23B2B103AA500928D99 /* Poppins-Bold.ttf */; };
+		F771F23E2B103AB000928D99 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F771F23D2B103AB000928D99 /* Poppins-SemiBold.ttf */; };
+		F771F2402B103AB900928D99 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F771F23F2B103AB900928D99 /* Poppins-Regular.ttf */; };
+		F771F2442B103B4E00928D99 /* sizeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771F2432B103B4E00928D99 /* sizeFonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,12 @@
 		F771F22B2B10382E00928D99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F771F2342B10399800928D99 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F771F2362B1039B500928D99 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F771F2392B103A9600928D99 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Bold.ttf"; path = "../../../../Downloads/Nunito/static/Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		F771F23B2B103AA500928D99 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../../Downloads/Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		F771F23D2B103AB000928D99 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../../Downloads/Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		F771F23F2B103AB900928D99 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../../Downloads/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		F771F2412B103ACF00928D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F771F2432B103B4E00928D99 /* sizeFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sizeFonts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +68,9 @@
 		F771F2232B10382C00928D99 /* docLab2 */ = {
 			isa = PBXGroup;
 			children = (
+				F771F2422B103B3200928D99 /* LocalTools */,
+				F771F2412B103ACF00928D99 /* Info.plist */,
+				F771F2382B103A7C00928D99 /* Fonts */,
 				F771F2242B10382C00928D99 /* docLab2App.swift */,
 				F771F2262B10382C00928D99 /* ContentView.swift */,
 				F771F2282B10382E00928D99 /* Assets.xcassets */,
@@ -71,6 +85,25 @@
 				F771F22B2B10382E00928D99 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F771F2382B103A7C00928D99 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F771F23F2B103AB900928D99 /* Poppins-Regular.ttf */,
+				F771F23D2B103AB000928D99 /* Poppins-SemiBold.ttf */,
+				F771F23B2B103AA500928D99 /* Poppins-Bold.ttf */,
+				F771F2392B103A9600928D99 /* Nunito-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F771F2422B103B3200928D99 /* LocalTools */ = {
+			isa = PBXGroup;
+			children = (
+				F771F2432B103B4E00928D99 /* sizeFonts.swift */,
+			);
+			path = LocalTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +165,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F771F22C2B10382E00928D99 /* Preview Assets.xcassets in Resources */,
+				F771F23E2B103AB000928D99 /* Poppins-SemiBold.ttf in Resources */,
+				F771F23C2B103AA600928D99 /* Poppins-Bold.ttf in Resources */,
+				F771F23A2B103A9600928D99 /* Nunito-Bold.ttf in Resources */,
 				F771F2352B10399800928D99 /* .gitignore in Resources */,
 				F771F2372B1039B500928D99 /* README.md in Resources */,
 				F771F2292B10382E00928D99 /* Assets.xcassets in Resources */,
+				F771F2402B103AB900928D99 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F771F2272B10382C00928D99 /* ContentView.swift in Sources */,
+				F771F2442B103B4E00928D99 /* sizeFonts.swift in Sources */,
 				F771F2252B10382C00928D99 /* docLab2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +315,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"docLab2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = docLab2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,6 +344,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"docLab2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = docLab2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
