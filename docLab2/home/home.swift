@@ -70,7 +70,7 @@ struct home: View {
                                 
                     VStack(alignment: .leading, spacing: 16) {
                         Text(NSLocalizedString("nearDoc", comment:""))
-                            .font(Fonts.nearDoc)
+                            .font(Fonts.pSB_16)
                             .foregroundColor(Color.black)
                         ForEach(docs1){ item in
                             nearDoc(nearDocs: item)
