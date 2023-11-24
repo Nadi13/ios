@@ -13,12 +13,12 @@
 		F771F22C2B10382E00928D99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F771F22B2B10382E00928D99 /* Preview Assets.xcassets */; };
 		F771F2352B10399800928D99 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F771F2342B10399800928D99 /* .gitignore */; };
 		F771F2372B1039B500928D99 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F771F2362B1039B500928D99 /* README.md */; };
-		F771F23A2B103A9600928D99 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F771F2392B103A9600928D99 /* Nunito-Bold.ttf */; };
 		F771F23C2B103AA600928D99 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F771F23B2B103AA500928D99 /* Poppins-Bold.ttf */; };
-		F771F23E2B103AB000928D99 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F771F23D2B103AB000928D99 /* Poppins-SemiBold.ttf */; };
 		F771F2402B103AB900928D99 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F771F23F2B103AB900928D99 /* Poppins-Regular.ttf */; };
 		F771F2442B103B4E00928D99 /* sizeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771F2432B103B4E00928D99 /* sizeFonts.swift */; };
 		F771F2462B103C3F00928D99 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F771F2452B103C3F00928D99 /* Localizable.strings */; };
+		F79A1C402B10FE5D00EF9824 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F79A1C3F2B10FE5C00EF9824 /* Poppins-SemiBold.ttf */; };
+		F79A1C422B10FE6D00EF9824 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F79A1C412B10FE6D00EF9824 /* Nunito-Bold.ttf */; };
 		F7B14E212B103EA9001F89DB /* myTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E202B103EA9001F89DB /* myTabBar.swift */; };
 		F7B14E252B103F43001F89DB /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E242B103F43001F89DB /* home.swift */; };
 		F7B14E282B1041BF001F89DB /* menuUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E272B1041BF001F89DB /* menuUi.swift */; };
@@ -41,13 +41,13 @@
 		F771F22B2B10382E00928D99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F771F2342B10399800928D99 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F771F2362B1039B500928D99 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F771F2392B103A9600928D99 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Bold.ttf"; path = "../../../../Downloads/Nunito/static/Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		F771F23B2B103AA500928D99 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../../Downloads/Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		F771F23D2B103AB000928D99 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../../Downloads/Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		F771F23F2B103AB900928D99 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../../Downloads/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		F771F2412B103ACF00928D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F771F2432B103B4E00928D99 /* sizeFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sizeFonts.swift; sourceTree = "<group>"; };
 		F771F2452B103C3F00928D99 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		F79A1C3F2B10FE5C00EF9824 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		F79A1C412B10FE6D00EF9824 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		F7B14E202B103EA9001F89DB /* myTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTabBar.swift; sourceTree = "<group>"; };
 		F7B14E242B103F43001F89DB /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 		F7B14E272B1041BF001F89DB /* menuUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuUi.swift; sourceTree = "<group>"; };
@@ -120,10 +120,10 @@
 		F771F2382B103A7C00928D99 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				F79A1C412B10FE6D00EF9824 /* Nunito-Bold.ttf */,
+				F79A1C3F2B10FE5C00EF9824 /* Poppins-SemiBold.ttf */,
 				F771F23F2B103AB900928D99 /* Poppins-Regular.ttf */,
-				F771F23D2B103AB000928D99 /* Poppins-SemiBold.ttf */,
 				F771F23B2B103AA500928D99 /* Poppins-Bold.ttf */,
-				F771F2392B103A9600928D99 /* Nunito-Bold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -236,12 +236,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F771F22C2B10382E00928D99 /* Preview Assets.xcassets in Resources */,
-				F771F23E2B103AB000928D99 /* Poppins-SemiBold.ttf in Resources */,
 				F771F23C2B103AA600928D99 /* Poppins-Bold.ttf in Resources */,
-				F771F23A2B103A9600928D99 /* Nunito-Bold.ttf in Resources */,
 				F771F2462B103C3F00928D99 /* Localizable.strings in Resources */,
 				F771F2352B10399800928D99 /* .gitignore in Resources */,
+				F79A1C422B10FE6D00EF9824 /* Nunito-Bold.ttf in Resources */,
 				F771F2372B1039B500928D99 /* README.md in Resources */,
+				F79A1C402B10FE5D00EF9824 /* Poppins-SemiBold.ttf in Resources */,
 				F771F2292B10382E00928D99 /* Assets.xcassets in Resources */,
 				F771F2402B103AB900928D99 /* Poppins-Regular.ttf in Resources */,
 			);
