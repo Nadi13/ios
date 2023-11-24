@@ -27,6 +27,10 @@
 		F7B14E2E2B104295001F89DB /* profileDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E2D2B104295001F89DB /* profileDoc.swift */; };
 		F7B14E302B104302001F89DB /* search.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E2F2B104302001F89DB /* search.swift */; };
 		F7B14E322B104332001F89DB /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E312B104332001F89DB /* menu.swift */; };
+		F7B14E342B10439C001F89DB /* nearDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E332B10439B001F89DB /* nearDoc.swift */; };
+		F7B14E372B1043D6001F89DB /* calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E362B1043D6001F89DB /* calendar.swift */; };
+		F7B14E392B1043F7001F89DB /* message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E382B1043F7001F89DB /* message.swift */; };
+		F7B14E3D2B1044F7001F89DB /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E3C2B1044F7001F89DB /* user.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +56,10 @@
 		F7B14E2D2B104295001F89DB /* profileDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileDoc.swift; sourceTree = "<group>"; };
 		F7B14E2F2B104302001F89DB /* search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search.swift; sourceTree = "<group>"; };
 		F7B14E312B104332001F89DB /* menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu.swift; sourceTree = "<group>"; };
+		F7B14E332B10439B001F89DB /* nearDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nearDoc.swift; sourceTree = "<group>"; };
+		F7B14E362B1043D6001F89DB /* calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar.swift; sourceTree = "<group>"; };
+		F7B14E382B1043F7001F89DB /* message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = message.swift; sourceTree = "<group>"; };
+		F7B14E3C2B1044F7001F89DB /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,7 @@
 		F771F2232B10382C00928D99 /* docLab2 */ = {
 			isa = PBXGroup;
 			children = (
+				F7B14E352B1043BC001F89DB /* otherPages */,
 				F7B14E232B103F2F001F89DB /* home */,
 				F7B14E222B103EF9001F89DB /* UI */,
 				F771F2422B103B3200928D99 /* LocalTools */,
@@ -153,8 +162,19 @@
 				F7B14E2D2B104295001F89DB /* profileDoc.swift */,
 				F7B14E2F2B104302001F89DB /* search.swift */,
 				F7B14E312B104332001F89DB /* menu.swift */,
+				F7B14E332B10439B001F89DB /* nearDoc.swift */,
 			);
 			path = components;
+			sourceTree = "<group>";
+		};
+		F7B14E352B1043BC001F89DB /* otherPages */ = {
+			isa = PBXGroup;
+			children = (
+				F7B14E362B1043D6001F89DB /* calendar.swift */,
+				F7B14E382B1043F7001F89DB /* message.swift */,
+				F7B14E3C2B1044F7001F89DB /* user.swift */,
+			);
+			path = otherPages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,15 +254,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B14E342B10439C001F89DB /* nearDoc.swift in Sources */,
 				F7B14E282B1041BF001F89DB /* menuUi.swift in Sources */,
 				F7B14E2C2B104228001F89DB /* headerDoc.swift in Sources */,
 				F7B14E2E2B104295001F89DB /* profileDoc.swift in Sources */,
 				F771F2272B10382C00928D99 /* ContentView.swift in Sources */,
+				F7B14E3D2B1044F7001F89DB /* user.swift in Sources */,
 				F7B14E2A2B1041E0001F89DB /* nearDocUi.swift in Sources */,
 				F771F2442B103B4E00928D99 /* sizeFonts.swift in Sources */,
+				F7B14E392B1043F7001F89DB /* message.swift in Sources */,
 				F771F2252B10382C00928D99 /* docLab2App.swift in Sources */,
 				F7B14E302B104302001F89DB /* search.swift in Sources */,
 				F7B14E252B103F43001F89DB /* home.swift in Sources */,
+				F7B14E372B1043D6001F89DB /* calendar.swift in Sources */,
 				F7B14E212B103EA9001F89DB /* myTabBar.swift in Sources */,
 				F7B14E322B104332001F89DB /* menu.swift in Sources */,
 			);
