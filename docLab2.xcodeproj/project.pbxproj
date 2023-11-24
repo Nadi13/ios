@@ -21,6 +21,9 @@
 		F771F2462B103C3F00928D99 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F771F2452B103C3F00928D99 /* Localizable.strings */; };
 		F7B14E212B103EA9001F89DB /* myTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E202B103EA9001F89DB /* myTabBar.swift */; };
 		F7B14E252B103F43001F89DB /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E242B103F43001F89DB /* home.swift */; };
+		F7B14E282B1041BF001F89DB /* menuUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E272B1041BF001F89DB /* menuUi.swift */; };
+		F7B14E2A2B1041E0001F89DB /* nearDocUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E292B1041E0001F89DB /* nearDocUi.swift */; };
+		F7B14E2C2B104228001F89DB /* headerDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B14E2B2B104228001F89DB /* headerDoc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		F771F2452B103C3F00928D99 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		F7B14E202B103EA9001F89DB /* myTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTabBar.swift; sourceTree = "<group>"; };
 		F7B14E242B103F43001F89DB /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		F7B14E272B1041BF001F89DB /* menuUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuUi.swift; sourceTree = "<group>"; };
+		F7B14E292B1041E0001F89DB /* nearDocUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nearDocUi.swift; sourceTree = "<group>"; };
+		F7B14E2B2B104228001F89DB /* headerDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = headerDoc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,8 @@
 		F7B14E222B103EF9001F89DB /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				F7B14E272B1041BF001F89DB /* menuUi.swift */,
+				F7B14E292B1041E0001F89DB /* nearDocUi.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -126,9 +134,18 @@
 		F7B14E232B103F2F001F89DB /* home */ = {
 			isa = PBXGroup;
 			children = (
+				F7B14E262B103FAF001F89DB /* components */,
 				F7B14E242B103F43001F89DB /* home.swift */,
 			);
 			path = home;
+			sourceTree = "<group>";
+		};
+		F7B14E262B103FAF001F89DB /* components */ = {
+			isa = PBXGroup;
+			children = (
+				F7B14E2B2B104228001F89DB /* headerDoc.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B14E282B1041BF001F89DB /* menuUi.swift in Sources */,
+				F7B14E2C2B104228001F89DB /* headerDoc.swift in Sources */,
 				F771F2272B10382C00928D99 /* ContentView.swift in Sources */,
+				F7B14E2A2B1041E0001F89DB /* nearDocUi.swift in Sources */,
 				F771F2442B103B4E00928D99 /* sizeFonts.swift in Sources */,
 				F771F2252B10382C00928D99 /* docLab2App.swift in Sources */,
 				F7B14E252B103F43001F89DB /* home.swift in Sources */,
