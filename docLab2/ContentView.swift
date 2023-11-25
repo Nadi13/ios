@@ -8,15 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+    @State private var selectedTab: Tab = .home
+
+    var body: some View{
+        ZStack{
+            VStack {
+                TabView(selection: $selectedTab){
+                    ForEach(Tab.allCases, id: \.rawValue) { tab in
+                        getPage(for: tab)
+                            .tag(tab)
+                    }
+                }
+            }
+            VStack {
+                Spacer()
+                MyTabBar(selectedTab: $selectedTab)
+            }
         }
-        .padding()
     }
+    
+        @ViewBuilder
+       func getPage(for tab: Tab) -> some View {
+           switch tab {
+           case .home:
+               home()
+           case .calendar1:
+               calendar()
+           case .message:
+               message()
+           case .user:
+               user()
+           }
+       }
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -24,3 +47,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
